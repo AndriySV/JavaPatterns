@@ -2,7 +2,6 @@ package com.as.behavioral.strategy;
 
 public class MiniDuckSimulator {
  
-	// Start
 	public static void main(String[] args) {
  
 		MallardDuck	mallard = new MallardDuck();
