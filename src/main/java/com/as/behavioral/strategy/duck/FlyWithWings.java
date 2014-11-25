@@ -1,4 +1,4 @@
-package com.as.behavioral.strategy;
+package com.as.behavioral.strategy.duck;
 
 public class FlyWithWings implements FlyBehavior {
 	public void fly() {

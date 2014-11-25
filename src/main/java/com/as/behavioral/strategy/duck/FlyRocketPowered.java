@@ -1,4 +1,4 @@
-package com.as.behavioral.strategy;
+package com.as.behavioral.strategy.duck;
 
 public class FlyRocketPowered implements FlyBehavior {
 	public void fly() {

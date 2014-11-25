@@ -1,4 +1,4 @@
-package com.as.behavioral.strategy;
+package com.as.behavioral.strategy.duck;
 
 public abstract class Duck {
 	FlyBehavior flyBehavior;
