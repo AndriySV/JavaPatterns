@@ -1,9 +1,29 @@
 package com.as.behavioral.strategy.car;
 
-public class Car {
+import com.as.behavioral.strategy.car.driveBehavior.DriveBehavior;
+import com.as.behavioral.strategy.car.signalBehavior.SignalBehavior;
 
-	public static void main(String[] args) {
+public abstract class Car {
 
+	public DriveBehavior driveBehavior;
+	public SignalBehavior signalBehavior;
+	
+	public abstract void display();
+	
+	public void performDrive() {
+		driveBehavior.drive();
+	}
+	
+	public void performSignal() {
+		signalBehavior.signal();
 	}
 
+	public void setDriveBehavior(DriveBehavior driveBehavior) {
+		this.driveBehavior = driveBehavior;
+	}
+
+	public void setSignalBehavior(SignalBehavior signalBehavior) {
+		this.signalBehavior = signalBehavior;
+	}
+	
 }
