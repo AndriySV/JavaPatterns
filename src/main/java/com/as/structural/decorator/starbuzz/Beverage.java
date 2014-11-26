@@ -1,4 +1,4 @@
-package com.as.structural.decorator;
+package com.as.structural.decorator.starbuzz;
 
 public abstract class Beverage {
 	String description = "Unknown Beverage";

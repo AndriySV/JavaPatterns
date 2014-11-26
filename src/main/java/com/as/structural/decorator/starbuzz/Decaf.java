@@ -1,4 +1,4 @@
-package com.as.structural.decorator;
+package com.as.structural.decorator.starbuzz;
 
 public class Decaf extends Beverage {
 	public Decaf() {
