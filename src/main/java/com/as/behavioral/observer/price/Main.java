@@ -2,7 +2,6 @@ package com.as.behavioral.observer.price;
 
 public class Main {
 
-	// start
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
@@ -14,8 +13,7 @@ public class Main {
 		
 		priceData.setPrice(20);
 		priceData.setPrice(10);
-		priceData.setPrice(3);
+		priceData.setPrice(6);
 		
 	}
-//end
 }
