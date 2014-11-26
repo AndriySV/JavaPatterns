@@ -1,4 +1,4 @@
-package com.as.behavioral.observer;
+package com.as.behavioral.observer.weather;
 
 public interface Subject {
 	
