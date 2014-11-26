@@ -1,7 +1,8 @@
 package com.as.behavioral.observer.price;
 
 public class Main {
-
+	
+	//bad
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
