@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class InputTest {
-//FIXME
+
 	public static void main(String[] args) throws IOException {
 
 		FileInputStream filterInputStream = new FileInputStream(
