@@ -10,7 +10,7 @@ public class ChicagoStyleClamPizza extends Pizza {
 		toppings.add("Frozen Clams from Chesapeake Bay");
 	}
  
-	void cut() {
+	public void cut() {
 		System.out.println("Cutting the pizza into square slices");
 	}
 }

@@ -1,4 +1,10 @@
-package com.as.creational.factory;
+package com.as.creational.factory.store;
+
+import com.as.creational.factory.NYStyleCheesePizza;
+import com.as.creational.factory.NYStyleClamPizza;
+import com.as.creational.factory.NYStylePepperoniPizza;
+import com.as.creational.factory.NYStyleVeggiePizza;
+import com.as.creational.factory.Pizza;
 
 public class NYPizzaStore extends PizzaStore {
 

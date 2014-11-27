@@ -1,5 +1,9 @@
 package com.as.creational.factory;
 
+import com.as.creational.factory.store.ChicagoPizzaStore;
+import com.as.creational.factory.store.NYPizzaStore;
+import com.as.creational.factory.store.PizzaStore;
+
 public class PizzaTestDrive {
 
 	public static void main(String[] args) {
