@@ -1,4 +1,4 @@
-package com.as.structural.decorator.starbuzz;
+package com.as.structural.decorator.StarbuzzCoffee;
 
 public class Soy extends CondimentDecoratior {
 	Beverage beverage;
