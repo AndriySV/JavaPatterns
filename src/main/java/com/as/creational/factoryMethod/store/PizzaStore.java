@@ -1,6 +1,6 @@
-package com.as.creational.factory.store;
+package com.as.creational.factoryMethod.store;
 
-import com.as.creational.factory.Pizza;
+import com.as.creational.factoryMethod.Pizza;
 
 public abstract class PizzaStore {
 	abstract Pizza createPizza(String item);

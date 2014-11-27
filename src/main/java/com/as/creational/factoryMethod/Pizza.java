@@ -1,4 +1,4 @@
-package com.as.creational.factory;
+package com.as.creational.factoryMethod;
 
 import java.util.ArrayList;
 

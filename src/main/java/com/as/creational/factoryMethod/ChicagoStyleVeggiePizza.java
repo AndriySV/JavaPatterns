@@ -1,4 +1,4 @@
-package com.as.creational.factory;
+package com.as.creational.factoryMethod;
 
 public class ChicagoStyleVeggiePizza extends Pizza {
 	public ChicagoStyleVeggiePizza() {

@@ -1,14 +1,13 @@
-package com.as.creational.factory;
+package com.as.creational.factoryMethod;
 
-public class NYStylePepperoniPizza extends Pizza {
+public class NYStyleVeggiePizza extends Pizza {
 
-	public NYStylePepperoniPizza() {
-		name = "NY Style Pepperoni Pizza";
+	public NYStyleVeggiePizza() {
+		name = "NY Style Veggie Pizza";
 		dough = "Thin Crust Dough";
 		sauce = "Marinara Sauce";
  
 		toppings.add("Grated Reggiano Cheese");
-		toppings.add("Sliced Pepperoni");
 		toppings.add("Garlic");
 		toppings.add("Onion");
 		toppings.add("Mushrooms");

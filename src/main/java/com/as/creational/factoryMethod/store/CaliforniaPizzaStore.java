@@ -1,7 +1,7 @@
-package com.as.creational.factory.store;
+package com.as.creational.factoryMethod.store;
 
-import com.as.creational.factory.CaliforniaStylePepperoniPizza;
-import com.as.creational.factory.Pizza;
+import com.as.creational.factoryMethod.CaliforniaStylePepperoniPizza;
+import com.as.creational.factoryMethod.Pizza;
 
 public class CaliforniaPizzaStore extends PizzaStore {
 
