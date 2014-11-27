@@ -1,4 +1,4 @@
-package com.as.creational.factoryMethod;
+package com.as.creational.factoryMethod.pizza;
 
 import java.util.ArrayList;
 

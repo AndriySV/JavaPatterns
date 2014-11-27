@@ -1,8 +1,8 @@
-package com.as.creational.factoryMethod;
+package com.as.creational.factoryMethod.pizza;
 
-public class ChicagoStyleVeggiePizza extends Pizza {
-	public ChicagoStyleVeggiePizza() {
-		name = "Chicago Deep Dish Veggie Pizza";
+public class ChicagoStylePepperoniPizza extends Pizza {
+	public ChicagoStylePepperoniPizza() {
+		name = "Chicago Style Pepperoni Pizza";
 		dough = "Extra Thick Crust Dough";
 		sauce = "Plum Tomato Sauce";
  
@@ -10,6 +10,7 @@ public class ChicagoStyleVeggiePizza extends Pizza {
 		toppings.add("Black Olives");
 		toppings.add("Spinach");
 		toppings.add("Eggplant");
+		toppings.add("Sliced Pepperoni");
 	}
  
 	public void cut() {

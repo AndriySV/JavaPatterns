@@ -1,9 +1,9 @@
-package com.as.creational.factoryMethod;
+package com.as.creational.factoryMethod.pizza;
 
-import com.as.creational.factoryMethod.store.CaliforniaPizzaStore;
-import com.as.creational.factoryMethod.store.ChicagoPizzaStore;
-import com.as.creational.factoryMethod.store.NYPizzaStore;
-import com.as.creational.factoryMethod.store.PizzaStore;
+import com.as.creational.factoryMethod.pizza.store.CaliforniaPizzaStore;
+import com.as.creational.factoryMethod.pizza.store.ChicagoPizzaStore;
+import com.as.creational.factoryMethod.pizza.store.NYPizzaStore;
+import com.as.creational.factoryMethod.pizza.store.PizzaStore;
 
 public class PizzaTestDrive {
 

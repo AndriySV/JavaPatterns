@@ -1,10 +1,10 @@
-package com.as.creational.factoryMethod.store;
+package com.as.creational.factoryMethod.pizza.store;
 
-import com.as.creational.factoryMethod.NYStyleCheesePizza;
-import com.as.creational.factoryMethod.NYStyleClamPizza;
-import com.as.creational.factoryMethod.NYStylePepperoniPizza;
-import com.as.creational.factoryMethod.NYStyleVeggiePizza;
-import com.as.creational.factoryMethod.Pizza;
+import com.as.creational.factoryMethod.pizza.NYStyleCheesePizza;
+import com.as.creational.factoryMethod.pizza.NYStyleClamPizza;
+import com.as.creational.factoryMethod.pizza.NYStylePepperoniPizza;
+import com.as.creational.factoryMethod.pizza.NYStyleVeggiePizza;
+import com.as.creational.factoryMethod.pizza.Pizza;
 
 public class NYPizzaStore extends PizzaStore {
 
