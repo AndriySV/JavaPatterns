@@ -1,19 +1,23 @@
 package com.as.structural.decorator.pizza.ingredients;
 
 import com.as.structural.decorator.pizza.Decorator;
+import com.as.structural.decorator.pizza.Pizza;
 
 public class Sausage extends Decorator {
-
+private Pizza pizza;
+	
+	public Sausage(Pizza pizza) {
+		this.pizza = pizza;
+	}
+	
 	@Override
 	public String getDescription() {
-		// TODO Auto-generated method stub
-		return null;
+		return pizza.getDescription() + ", Sausage";
 	}
 
 	@Override
 	public double cost() {
-		// TODO Auto-generated method stub
-		return 0;
+		return pizza.cost() + .39;
 	}
 
 }

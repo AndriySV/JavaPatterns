@@ -4,9 +4,13 @@ import com.as.structural.decorator.pizza.Pizza;
 
 public class Calzone extends Pizza {
 
+	public Calzone() {
+		description = "Calzone";
+	}
+	
 	@Override
 	public double cost() {
-		return 0;
+		return 1.29;
 	}
 
 }
