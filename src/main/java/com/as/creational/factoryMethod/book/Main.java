@@ -7,6 +7,7 @@ import com.as.creational.factoryMethod.book.factory.BookUkrainian;
 
 public class Main {
 
+	//Test
 	public static void main(String[] args) {
 		BookFactory bookEnglish = new BookEnglish();
 		BookFactory bookUkrainian = new BookUkrainian();
