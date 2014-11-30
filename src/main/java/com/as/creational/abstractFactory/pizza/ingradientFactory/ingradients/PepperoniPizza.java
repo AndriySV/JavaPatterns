@@ -1,6 +1,7 @@
-package com.as.creational.abstractFactory.pizza.ingradient;
+package com.as.creational.abstractFactory.pizza.ingradientFactory.ingradients;
 
 import com.as.creational.abstractFactory.pizza.Pizza;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.PizzaIngredientFactory;
 
 public class PepperoniPizza extends Pizza {
 	PizzaIngredientFactory ingredientFactory;

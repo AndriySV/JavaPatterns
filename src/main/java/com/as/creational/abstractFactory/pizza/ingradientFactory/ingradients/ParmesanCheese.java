@@ -1,4 +1,4 @@
-package com.as.creational.abstractFactory.pizza.ingradient;
+package com.as.creational.abstractFactory.pizza.ingradientFactory.ingradients;
 
 public class ParmesanCheese implements Cheese {
 

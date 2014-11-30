@@ -5,8 +5,8 @@ import com.as.creational.abstractFactory.pizza.ClamPizza;
 import com.as.creational.abstractFactory.pizza.PepperoniPizza;
 import com.as.creational.abstractFactory.pizza.Pizza;
 import com.as.creational.abstractFactory.pizza.VeggiePizza;
-import com.as.creational.abstractFactory.pizza.ingradient.NYPizzaIngredientFactory;
-import com.as.creational.abstractFactory.pizza.ingradient.PizzaIngredientFactory;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.NYPizzaIngredientFactory;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.PizzaIngredientFactory;
 
 public class NYPizzaStore extends PizzaStore {
 

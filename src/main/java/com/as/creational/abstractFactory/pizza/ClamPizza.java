@@ -1,6 +1,6 @@
 package com.as.creational.abstractFactory.pizza;
 
-import com.as.creational.abstractFactory.pizza.ingradient.PizzaIngredientFactory;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.PizzaIngredientFactory;
 
 public class ClamPizza extends Pizza {
 	PizzaIngredientFactory ingredientFactory;
