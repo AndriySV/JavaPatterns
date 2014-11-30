@@ -1,4 +1,4 @@
-package com.as.creational.abstractFactory.cake.cakes.ingredients;
+package com.as.creational.abstractFactory.cake.cakes.ingredientsFactory.ingredients;
 
 public class KyivApple implements Apple {
 
