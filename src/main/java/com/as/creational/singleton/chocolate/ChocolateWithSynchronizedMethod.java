@@ -1,25 +1,20 @@
 package com.as.creational.singleton.chocolate;
 
-public class ChocolateBoilerBlock {
+public class ChocolateWithSynchronizedMethod {
 	private boolean empty;
 	private boolean boiled;
-	
-	private static volatile ChocolateBoilerBlock uniqueInstance;
 
-	private ChocolateBoilerBlock() {
+	private static ChocolateWithSynchronizedMethod uniqueInstance;
+
+	private ChocolateWithSynchronizedMethod() {
 		empty = true;
 		boiled = false;
 	}
 
-	public static ChocolateBoilerBlock getInstance() {
+	public static synchronized ChocolateWithSynchronizedMethod getInstance() {
 		if (uniqueInstance == null) {
 			System.out.println("Creating unique instance of Chocolate Boiler");
-			
-			synchronized (ChocolateBoilerStatic.class) {
-				if (uniqueInstance == null) {
-					uniqueInstance = new ChocolateBoilerBlock();
-				}
-			}
+			uniqueInstance = new ChocolateWithSynchronizedMethod();
 		}
 		System.out.println("Returning instance of Chocolate Boiler");
 		return uniqueInstance;

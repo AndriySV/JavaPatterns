@@ -1,17 +1,21 @@
 package com.as.creational.singleton.chocolate;
 
-public class ChocolateBoilerStatic {
+public class ChocolateBoilerWithGetInstance {
 	private boolean empty;
 	private boolean boiled;
 	
-	private static ChocolateBoilerStatic uniqueInstance = new ChocolateBoilerStatic();
+	private static ChocolateBoilerWithGetInstance uniqueInstance;
 
-	private ChocolateBoilerStatic() {
+	private ChocolateBoilerWithGetInstance() {
 		empty = true;
 		boiled = false;
 	}
 
-	public static ChocolateBoilerStatic getInstance() {
+	public static ChocolateBoilerWithGetInstance getInstance() {
+		if (uniqueInstance == null) {
+			System.out.println("Creating unique instance of Chocolate Boiler");
+			uniqueInstance = new ChocolateBoilerWithGetInstance();
+		}
 		System.out.println("Returning instance of Chocolate Boiler");
 		return uniqueInstance;
 	}
