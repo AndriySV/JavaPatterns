@@ -1,11 +1,11 @@
 package com.as.creational.abstractFactory.pizza;
 
-import com.as.creational.abstractFactory.pizza.ingradient.Cheese;
-import com.as.creational.abstractFactory.pizza.ingradient.Clams;
-import com.as.creational.abstractFactory.pizza.ingradient.Dough;
-import com.as.creational.abstractFactory.pizza.ingradient.Pepperoni;
-import com.as.creational.abstractFactory.pizza.ingradient.Sauce;
-import com.as.creational.abstractFactory.pizza.ingradient.Veggies;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.ingradients.Cheese;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.ingradients.Clams;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.ingradients.Dough;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.ingradients.Pepperoni;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.ingradients.Sauce;
+import com.as.creational.abstractFactory.pizza.ingradientFactory.ingradients.Veggies;
 
 public abstract class Pizza {
 	public String name;

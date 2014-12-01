@@ -1,11 +1,12 @@
-package com.as.creational.abstractFactory.pizza;
+package com.as.creational.abstractFactory.pizza.ingradientFactory.ingradients;
 
+import com.as.creational.abstractFactory.pizza.Pizza;
 import com.as.creational.abstractFactory.pizza.ingradientFactory.PizzaIngredientFactory;
 
-public class ClamPizza extends Pizza {
+public class PepperoniPizza extends Pizza {
 	PizzaIngredientFactory ingredientFactory;
  
-	public ClamPizza(PizzaIngredientFactory ingredientFactory) {
+	public PepperoniPizza(PizzaIngredientFactory ingredientFactory) {
 		this.ingredientFactory = ingredientFactory;
 	}
  
@@ -14,6 +15,7 @@ public class ClamPizza extends Pizza {
 		dough = ingredientFactory.createDough();
 		sauce = ingredientFactory.createSauce();
 		cheese = ingredientFactory.createCheese();
-		clam = ingredientFactory.createClam();
+		veggies = ingredientFactory.createVeggies();
+		pepperoni = ingredientFactory.createPepperoni();
 	}
 }
