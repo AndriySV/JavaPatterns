@@ -1,6 +1,5 @@
 package com.as.creational.abstractFactory.cake;
 
-import com.as.creational.abstractFactory.cake.cakes.Cake;
 import com.as.creational.abstractFactory.cake.factory.CakeFactory;
 import com.as.creational.abstractFactory.cake.factory.KyivFactory;
 
@@ -12,6 +11,10 @@ public class Main {
 		
 		Cake cake = kyivFactory.createCacke("apple");
 		cake.bake();
+		
+		cake = kyivFactory.createCacke("kyiv");
+		cake.bake();
+		
 		
 	}
 

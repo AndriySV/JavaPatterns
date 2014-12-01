@@ -1,10 +1,10 @@
 package com.as.creational.abstractFactory.cake.factory;
 
-import com.as.creational.abstractFactory.cake.cakes.AppleCake;
-import com.as.creational.abstractFactory.cake.cakes.Cake;
-import com.as.creational.abstractFactory.cake.cakes.KyivCake;
-import com.as.creational.abstractFactory.cake.cakes.ingredientsFactory.CakeIngradientFactory;
-import com.as.creational.abstractFactory.cake.cakes.ingredientsFactory.KyivCakeIngradientFactory;
+import com.as.creational.abstractFactory.cake.AppleCake;
+import com.as.creational.abstractFactory.cake.Cake;
+import com.as.creational.abstractFactory.cake.CherryCake;
+import com.as.creational.abstractFactory.cake.ingredientsFactory.CakeIngradientFactory;
+import com.as.creational.abstractFactory.cake.ingredientsFactory.KyivCakeIngradientFactory;
 
 public class KyivFactory implements CakeFactory {
 
@@ -17,8 +17,8 @@ public class KyivFactory implements CakeFactory {
 		case "apple":
 			cake = new AppleCake(ingradientFactory);
 			break;
-		case "kyiv":
-			cake = new KyivCake(ingradientFactory);
+		case "cherry":
+			cake = new CherryCake(ingradientFactory);
 			break;
 		}
 		return cake;

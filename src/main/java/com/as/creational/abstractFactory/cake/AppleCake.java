@@ -1,6 +1,6 @@
-package com.as.creational.abstractFactory.cake.cakes;
+package com.as.creational.abstractFactory.cake;
 
-import com.as.creational.abstractFactory.cake.cakes.ingredientsFactory.CakeIngradientFactory;
+import com.as.creational.abstractFactory.cake.ingredientsFactory.CakeIngradientFactory;
 
 public class AppleCake extends Cake {
 	private CakeIngradientFactory ingradientFactory;
