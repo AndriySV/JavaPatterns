@@ -1,4 +1,4 @@
-package com.as.behavioral.command;
+package com.as.behavioral.command.simpleremote;
 
 public interface Command {
 	
