@@ -10,4 +10,8 @@ public class Invoker {
 	public void buttonWasPressed() {
 		command.execute();
 	}
+	
+	public void undoButtonWasPressed() {
+		command.undo();
+	}
 }

@@ -1,20 +1,20 @@
 package com.as.behavioral.command.tv;
 
-public class TvOnCommand implements Command {
-	private TV tv;
+public class TvOffCommand implements Command {
+	TV tv;
 	
-	public TvOnCommand(TV tv) {
+	public TvOffCommand(TV tv) {
 		this.tv = tv;
 	}
 	
 	@Override
 	public void execute() {
-		tv.on();
+		tv.off();
 	}
 
 	@Override
 	public void undo() {
-		tv.off();
+		tv.on();
 	}
 
 }

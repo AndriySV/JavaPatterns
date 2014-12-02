@@ -8,8 +8,17 @@ public class Main {
 		
 		TV tv = new TV();
 		TvOnCommand tvOnCommand = new TvOnCommand(tv);
+		TvOffCommand tvOffCommand = new TvOffCommand(tv);
 		
 		invoker.setCommand(tvOnCommand);
 		invoker.buttonWasPressed();
+		
+		invoker.undoButtonWasPressed();
+		
+		invoker.setCommand(tvOffCommand);
+		invoker.buttonWasPressed();
+		
+		invoker.undoButtonWasPressed();
+		
 	}
 }
