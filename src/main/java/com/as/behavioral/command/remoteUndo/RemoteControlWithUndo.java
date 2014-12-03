@@ -1,10 +1,6 @@
 package com.as.behavioral.command.remoteUndo;
 
-import java.util.*;
-
-//
-// This is the invoker
-//
+// This is invoker !
 public class RemoteControlWithUndo {
 	Command[] onCommands;
 	Command[] offCommands;
