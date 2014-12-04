@@ -1,4 +1,4 @@
-package com.as.behavioral.templateMethod.barman;
+package com.as.behavioral.templateMethod.beverage;
 
 public abstract class CaffeineBeverage {
 
