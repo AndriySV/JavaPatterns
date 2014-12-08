@@ -21,5 +21,4 @@ public class DinerMenuIterator implements Iterator {
 			return true;
 		}
 	}
-
 }
