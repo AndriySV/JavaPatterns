@@ -3,12 +3,12 @@ package com.as.behavioral.iterator.menuOwnIterator;
 import java.util.ArrayList;
 
 public class PancakeHouselteгatoг implements Iterator {
-	private ArrayList arrayList;
+	private ArrayList<MenuItem> arrayList;
 	private int position;
 	private MenuItem menuItem;
 	
 	
-	public PancakeHouselteгatoг(ArrayList arrayList) {
+	public PancakeHouselteгatoг(ArrayList<MenuItem> arrayList) {
 		this.arrayList = arrayList;
 	}
 	

@@ -3,10 +3,10 @@ package com.as.behavioral.iterator.menuOwnIterator;
 import java.util.ArrayList;
 
 public class PancakeHouseMenu {
-	ArrayList menuItems;
+	ArrayList<MenuItem> menuItems;
 
 	public PancakeHouseMenu() {
-		menuItems = new ArrayList();
+		menuItems = new ArrayList<MenuItem>();
 
 		addItem("K&B's Pancake Breakfast",
 				"Pancakes with scrambled eggs, and toast", true, 2.99);
