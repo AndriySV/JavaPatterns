@@ -1,5 +1,8 @@
 package com.as.behavioral.iterator.menuOwnIterator;
 
+import com.as.behavioral.iterator.menuOwnIterator.iteratir.DinerMenuIterator;
+import com.as.behavioral.iterator.menuOwnIterator.iteratir.Iterator;
+
 public class DinerMenu {
 	static final int MAX_ITEMS = 6;
 	int numberOfItems = 0;

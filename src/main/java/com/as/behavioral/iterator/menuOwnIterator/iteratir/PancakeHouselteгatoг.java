@@ -1,6 +1,8 @@
-package com.as.behavioral.iterator.menuOwnIterator;
+package com.as.behavioral.iterator.menuOwnIterator.iteratir;
 
 import java.util.ArrayList;
+
+import com.as.behavioral.iterator.menuOwnIterator.MenuItem;
 
 public class PancakeHouselteгatoг implements Iterator {
 	private ArrayList<MenuItem> arrayList;

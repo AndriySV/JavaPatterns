@@ -1,4 +1,6 @@
-package com.as.behavioral.iterator.menuOwnIterator;
+package com.as.behavioral.iterator.menuOwnIterator.iteratir;
+
+import com.as.behavioral.iterator.menuOwnIterator.MenuItem;
 
 public class DinerMenuIterator implements Iterator {
 	MenuItem[] items;
