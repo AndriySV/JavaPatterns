@@ -1,6 +1,6 @@
 package com.as.behavioral.iterator.menuOwnIterator;
 
-import com.as.behavioral.iterator.menuOwnIterator.iteratir.Iterator;
+import com.as.behavioral.iterator.menuOwnIterator.iterator.Iterator;
 
 public class Waitress {
 	PancakeHouseMenu pancakeHouseMenu;

@@ -1,4 +1,4 @@
-package com.as.behavioral.iterator.menuOwnIterator.iteratir;
+package com.as.behavioral.iterator.menuOwnIterator.iterator;
 
 public interface Iterator {
 	

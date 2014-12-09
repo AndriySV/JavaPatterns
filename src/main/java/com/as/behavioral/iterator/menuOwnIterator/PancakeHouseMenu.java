@@ -2,8 +2,8 @@ package com.as.behavioral.iterator.menuOwnIterator;
 
 import java.util.ArrayList;
 
-import com.as.behavioral.iterator.menuOwnIterator.iteratir.Iterator;
-import com.as.behavioral.iterator.menuOwnIterator.iteratir.PancakeHouselteгatoг;
+import com.as.behavioral.iterator.menuOwnIterator.iterator.Iterator;
+import com.as.behavioral.iterator.menuOwnIterator.iterator.PancakeHouselteгatoг;
 
 public class PancakeHouseMenu {
 	ArrayList<MenuItem> menuItems;
