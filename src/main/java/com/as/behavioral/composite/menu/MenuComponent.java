@@ -1,4 +1,4 @@
-package com.as.behavioral.composite;
+package com.as.behavioral.composite.menu;
 
 public abstract class MenuComponent {
    

@@ -1,6 +1,4 @@
-package com.as.behavioral.composite;
-
-import java.util.*;
+package com.as.behavioral.composite.menu;
 
 public class MenuTestDrive {
 	public static void main(String args[]) {
