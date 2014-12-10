@@ -1,9 +1,13 @@
 package com.as.behavioral.state.busTicket.state;
 
+import java.util.Random;
+
 import com.as.behavioral.state.busTicket.BusTicketMachine;
 
 public class HasMoneyState implements State {
 	private BusTicketMachine busTicketMachine;
+	
+	private Random random = new Random();
 	
 	public HasMoneyState(BusTicketMachine busTicketMachine) {
 		 this.busTicketMachine = busTicketMachine;
@@ -23,7 +27,13 @@ public class HasMoneyState implements State {
 	@Override
 	public void buyTicket() {
 		System.out.println("The ticket was bought ...");
-		busTicketMachine.setCurrentState(busTicketMachine.getSoldTicketState());
+		int value = random.nextInt(10);
+		
+		if ((value == 0) && (busTicketMachine.getCount() >= 2)) {
+			busTicketMachine.setCurrentState(busTicketMachine.getWinnerTicketState());
+		} else {
+			busTicketMachine.setCurrentState(busTicketMachine.getSoldTicketState());
+		}
 	}
 
 	@Override
