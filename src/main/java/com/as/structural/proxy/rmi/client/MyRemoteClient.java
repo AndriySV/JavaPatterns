@@ -5,6 +5,8 @@ import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 
+import com.as.structural.proxy.rmi.MyRemote;
+
 public class MyRemoteClient {
 	
 	public static void main(String[] args) {

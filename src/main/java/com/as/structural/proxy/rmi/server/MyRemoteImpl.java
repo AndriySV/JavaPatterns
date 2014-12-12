@@ -5,6 +5,8 @@ import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+import com.as.structural.proxy.rmi.MyRemote;
+
 @SuppressWarnings("serial")
 public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
 
@@ -13,7 +15,7 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
 
 	@Override
 	public String sayHello() throws RemoteException {
-		return "Server says Hello !";
+		return "Server says Hello Hello !";
 	}
 	
 	public static void main(String[] args) {
