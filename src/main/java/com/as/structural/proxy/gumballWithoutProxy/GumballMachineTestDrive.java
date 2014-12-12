@@ -6,7 +6,7 @@ public class GumballMachineTestDrive {
 		int count = 0;
 
         try {
-        	count = Integer.parseInt("15");
+        	count = 15;
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.exit(1);
