@@ -1,4 +1,4 @@
-package com.as.structural.proxy.rmi.client;
+package com.as.structural.proxy.rmi;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
