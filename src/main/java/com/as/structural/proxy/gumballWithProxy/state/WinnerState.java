@@ -2,6 +2,7 @@ package com.as.structural.proxy.gumballWithProxy.state;
 
 import com.as.structural.proxy.gumballWithProxy.server.GumballMachine;
 
+@SuppressWarnings("serial")
 public class WinnerState implements State {
     transient GumballMachine gumballMachine;
  

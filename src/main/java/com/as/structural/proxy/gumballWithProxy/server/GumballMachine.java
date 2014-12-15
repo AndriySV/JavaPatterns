@@ -11,6 +11,7 @@ import com.as.structural.proxy.gumballWithProxy.state.SoldState;
 import com.as.structural.proxy.gumballWithProxy.state.State;
 import com.as.structural.proxy.gumballWithProxy.state.WinnerState;
  
+@SuppressWarnings("serial")
 public class GumballMachine
 		extends UnicastRemoteObject implements GumballMachineRemote 
 {
