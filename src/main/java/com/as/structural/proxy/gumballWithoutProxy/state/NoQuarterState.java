@@ -2,6 +2,7 @@ package com.as.structural.proxy.gumballWithoutProxy.state;
 
 import com.as.structural.proxy.gumballWithoutProxy.GumballMachine;
 
+@SuppressWarnings("serial")
 public class NoQuarterState implements State {
     GumballMachine gumballMachine;
  

@@ -5,6 +5,7 @@ import java.util.Random;
 
 import com.as.structural.proxy.gumballWithoutProxy.GumballMachine;
 
+@SuppressWarnings("serial")
 public class HasQuarterState implements State {
 	Random randomWinner = new Random(System.currentTimeMillis());
 	GumballMachine gumballMachine;
