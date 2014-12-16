@@ -3,7 +3,9 @@ package com.as.mvc.djview;
 import java.util.*;
 
 public class HeartModel implements HeartModelInterface, Runnable {
+	@SuppressWarnings("rawtypes")
 	ArrayList beatObservers = new ArrayList();
+	@SuppressWarnings("rawtypes")
 	ArrayList bpmObservers = new ArrayList();
 	int time = 1000;
     int bpm = 90;
@@ -41,6 +43,7 @@ public class HeartModel implements HeartModelInterface, Runnable {
 		return 60000/time;
 	}
 
+	@SuppressWarnings("unchecked")
 	public void registerObserver(BeatObserver o) {
 		beatObservers.add(o);
 	}
@@ -59,6 +62,7 @@ public class HeartModel implements HeartModelInterface, Runnable {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	public void registerObserver(BPMObserver o) {
 		bpmObservers.add(o);
 	}

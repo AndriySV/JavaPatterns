@@ -1,11 +1,14 @@
 package com.as.mvc.djview;
   
 import javax.sound.midi.*;
+
 import java.util.*;
 
 public class BeatModel implements BeatModelInterface, MetaEventListener {
     Sequencer sequencer;
+	@SuppressWarnings("rawtypes")
 	ArrayList beatObservers = new ArrayList();
+	@SuppressWarnings("rawtypes")
 	ArrayList bpmObservers = new ArrayList();
     int bpm = 90;
     Sequence sequence;
@@ -41,6 +44,7 @@ public class BeatModel implements BeatModelInterface, MetaEventListener {
 	}
   
    
+	@SuppressWarnings("unchecked")
 	public void registerObserver(BeatObserver o) {
 		beatObservers.add(o);
 	}
@@ -52,6 +56,7 @@ public class BeatModel implements BeatModelInterface, MetaEventListener {
 		}
 	}
   
+	@SuppressWarnings("unchecked")
 	public void registerObserver(BPMObserver o) {
 		bpmObservers.add(o);
 	}

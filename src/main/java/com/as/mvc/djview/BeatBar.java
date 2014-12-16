@@ -1,9 +1,8 @@
 package com.as.mvc.djview;
   
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 public class BeatBar extends JProgressBar implements Runnable { 
     JProgressBar progressBar;
 	Thread thread;
