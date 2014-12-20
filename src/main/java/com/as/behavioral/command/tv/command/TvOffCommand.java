@@ -1,4 +1,6 @@
-package com.as.behavioral.command.tv;
+package com.as.behavioral.command.tv.command;
+
+import com.as.behavioral.command.tv.TV;
 
 public class TvOffCommand implements Command {
 	TV tv;

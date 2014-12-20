@@ -1,5 +1,7 @@
 package com.as.behavioral.command.tv;
 
+import com.as.behavioral.command.tv.command.Command;
+
 public class Invoker {
 	private Command command;
 	

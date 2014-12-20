@@ -1,4 +1,6 @@
-package com.as.behavioral.command.tv;
+package com.as.behavioral.command.tv.command;
+
+import com.as.behavioral.command.tv.TV;
 
 public class TvOnCommand implements Command {
 	private TV tv;
