@@ -1,8 +1,9 @@
-package com.as.behavioral.command.tv;
+package com.as.behavioral.command.simpleExample;
 
-import com.as.behavioral.command.tv.command.Command;
+import com.as.behavioral.command.simpleExample.command.Command;
 
 public class Invoker {
+	
 	private Command command;
 	
 	public void setCommand(Command command) {
@@ -13,7 +14,4 @@ public class Invoker {
 		command.execute();
 	}
 	
-	public void undoButtonWasPressed() {
-		command.undo();
-	}
 }

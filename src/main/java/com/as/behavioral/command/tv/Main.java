@@ -1,5 +1,8 @@
 package com.as.behavioral.command.tv;
 
+import com.as.behavioral.command.tv.command.TvOffCommand;
+import com.as.behavioral.command.tv.command.TvOnCommand;
+
 public class Main {
 	
 	public static void main(String[] args) {

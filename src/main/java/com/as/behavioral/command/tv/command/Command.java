@@ -1,4 +1,4 @@
-package com.as.behavioral.command.tv;
+package com.as.behavioral.command.tv.command;
 
 public interface Command {
 	
