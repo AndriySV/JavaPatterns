@@ -1,4 +1,4 @@
-package com.as.behavioral.composite.chapter;
+package com.as.structural.composite.chapter;
 
 import java.util.ArrayList;
 import java.util.Iterator;

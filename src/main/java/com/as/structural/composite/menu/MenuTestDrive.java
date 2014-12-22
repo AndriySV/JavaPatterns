@@ -1,4 +1,4 @@
-package com.as.behavioral.composite.menu;
+package com.as.structural.composite.menu;
 
 public class MenuTestDrive {
 	public static void main(String args[]) {

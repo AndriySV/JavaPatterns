@@ -1,4 +1,4 @@
-package com.as.behavioral.composite.chapter;
+package com.as.structural.composite.chapter;
 
 public class Chapter implements ChapterComponent {
 	private String title;

@@ -1,4 +1,4 @@
-package com.as.behavioral.composite.menu;
+package com.as.structural.composite.menu;
 
 public class MenuItem extends MenuComponent {
 	String name;
