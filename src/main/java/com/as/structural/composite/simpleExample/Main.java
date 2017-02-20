@@ -12,23 +12,18 @@ public class Main {
 		Component chapter1 = new SubTree("1");
 		Component chapter11 = new SubTree("11");
 		Component chapter12 = new SubTree("12");
-		
+		Component chapter13 = new Leaf("13");
+
 		Component chapter2 = new Leaf("2");
 		
 		chapter1.add(chapter11);
 		chapter1.add(chapter12);
-		
+		chapter1.add(chapter13);
+
 		allChapters.add(chapter1);
 		allChapters.add(chapter2);
-		
-		chapter1.showAll();
-		System.out.println();
-		
-		chapter2.showAll();
-		System.out.println();
-		
+
 		allChapters.showAll();
-				
 	}
 
 }

@@ -6,8 +6,7 @@ import java.util.Iterator;
 public class SubTree implements Component {
 	private String chapter;
 	private ArrayList<Component> chapters;
-	
-	
+
 	public SubTree(String chapter) {
 		this.chapter = chapter;
 		chapters = new ArrayList<Component>(); 
