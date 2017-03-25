@@ -9,7 +9,6 @@ public class TvOffCommand implements Command {
 		this.tv = tv;
 	}
 	
-	@Override
 	public void execute() {
 		tv.off();
 	}
